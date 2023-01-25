@@ -6,8 +6,8 @@ import { SearchHeadlessProvider, useSearchActions } from "@yext/search-headless-
 import PageLayout from "../components/layouts/PageLayout";
 import SearchLayout from "../components/locatorPage/SearchLayout";
 import {  AnswerExperienceConfig  } from "../config/globalConfig";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const getPath: GetPath<TemplateProps> = () => {
   return `/locatorSearch`;
